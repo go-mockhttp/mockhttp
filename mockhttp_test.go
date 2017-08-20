@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
+	"mockhttp"
 	"net/http"
 	"strconv"
 	"strings"
 	"testing"
 
-	"qiniupkg.com/x/mockhttp.v7"
 	"qiniupkg.com/x/rpc.v7"
 )
 
@@ -111,4 +111,3 @@ func TestBasic(t *testing.T) {
 }
 
 // --------------------------------------------------------------------
-
